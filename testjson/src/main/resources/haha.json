@@ -1,0 +1,10 @@
+{
+  "age": 25,
+  "birthday": 633801600000,
+  "car": false,
+  "comment": "这是一个注释",
+  "hasGirlFriend": false,
+  "house": false,
+  "major": ["理发", "挖掘机"],
+  "name": "王小二"
+}
