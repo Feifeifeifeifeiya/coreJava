@@ -1,4 +1,4 @@
-public class MyThreadlocal extends ThreadLocal{
+public class MyThreadlocal extends ThreadLocal {
     private static final ThreadLocal<Object> threadlocal=new ThreadLocal<>();
 
     /**
