@@ -15,6 +15,7 @@ import java.io.IOException;
  **/
 public class TestBase64 {
     private static String src="wufei zhen shuai";
+
     public static void main(String[] args) throws IOException {
        jdkBase64();
        commonsCode();
@@ -48,7 +49,7 @@ public class TestBase64 {
 
     private static void jdkBase64() throws IOException{
         BASE64Encoder base64Encoder = new BASE64Encoder();
-        String encode = base64Encoder.encode(src.getBytes());
+        String encode = base64Encoder.encode(TestBase64.src.getBytes());
         System.out.println("encode"+encode);
 
         BASE64Decoder base64Decoder = new BASE64Decoder();
