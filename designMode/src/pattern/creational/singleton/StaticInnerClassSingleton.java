@@ -12,4 +12,7 @@ public class StaticInnerClassSingleton {
     private Object readResolve(){
         return InnerClass.staticInnerClassSingleton;
     }
+
+    public StaticInnerClassSingleton() {
+    }
 }

@@ -10,6 +10,7 @@ public class MyThreadlocal extends ThreadLocal {
         return super.initialValue();
     }
 
+
     @Override
     public Object get() {
         return super.get();
@@ -24,6 +25,5 @@ public class MyThreadlocal extends ThreadLocal {
     public void remove() {
         super.remove();
     }
-
 
 }
