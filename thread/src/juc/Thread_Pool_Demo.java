@@ -25,9 +25,9 @@ public class Thread_Pool_Demo {
         // 查看cpu核数
         System.out.println(Runtime.getRuntime().availableProcessors());
 
-        // ExecutorService executorService = Executors.newFixedThreadPool(5); //固定数量的线程池
-        // ExecutorService executorService = Executors.newSingleThreadExecutor(); //只有一个线程的线程池
-        // ExecutorService executorService = Executors.newCachedThreadPool(); //数量不固定的带缓存的线程池
+        //ExecutorService executorService = Executors.newFixedThreadPool(5); //固定数量的线程池
+        //ExecutorService executorService = Executors.newSingleThreadExecutor(); //只有一个线程的线程池
+        //ExecutorService executorService = Executors.newCachedThreadPool(); //数量不固定的带缓存的线程池
         ExecutorService executorService = new ThreadPoolExecutor(
                 2,
                 5,
